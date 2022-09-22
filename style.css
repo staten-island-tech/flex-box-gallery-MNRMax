@@ -1,0 +1,9 @@
+.gallary {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.image {
+    width: 30%;
+}
