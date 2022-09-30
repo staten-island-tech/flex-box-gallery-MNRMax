@@ -1,6 +1,10 @@
 html, body, * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: azure;
 }
 .gallary {
     display: flex;
@@ -12,7 +16,7 @@ html, body, * {
 }
 .object {
     text-align: center;
-    width: 28em;
+    width: 28%;
     margin: 1.5%;
     background: aquamarine;
     border: 3px solid black;
@@ -27,4 +31,8 @@ html, body, * {
     border: 3px solid black;
     padding-left: 1%;
     padding-right: 1%;
+}
+.object-text {
+    font-size: 20px;
+    padding: 2%;
 }
