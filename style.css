@@ -6,13 +6,13 @@ html, body, * {
 body {
     background-color: azure;
 }
-body {
-    background-color: rgb(219, 255, 255);
-}
 .gallary {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+.image {
+    width: 90%;
 }
 .object {
     text-align: center;
@@ -21,10 +21,6 @@ body {
     background: aquamarine;
     border: 3px solid black;
     border-radius: 10px;
-    box-shadow: -5px 10px gray;
-}
-.object-image {
-    width: 90%;
 }
 .header {
     text-align: center;
