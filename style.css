@@ -4,7 +4,7 @@ html, body, * {
     box-sizing: border-box;
 }
 body {
-    background-color: azure;
+    background-color: #be4a44;
 }
 .gallary {
     display: flex;
@@ -16,19 +16,22 @@ body {
 }
 .object {
     text-align: center;
-    width: 27rem;
+    width: 27em;
     margin: 1.5%;
-    background: aquamarine;
-    border: 3px solid black;
+    background: #feddd8;
+    border: 1px solid black;
     border-radius: 10px;
+    box-shadow: -5px 5px 5px 5px #8b3631;
 }
 .header {
     text-align: center;
     width: fit-content;
     margin: auto;
-    background: aquamarine;
+    margin-top: 20px;
+    background: rgb(246, 115, 104);
     border-radius: 10px;
     border: 3px solid black;
+    padding: 0.5%;
     padding-left: 1%;
     padding-right: 1%;
 }
@@ -38,4 +41,16 @@ body {
 }
 .object-title {
     padding: 2%;
+}
+
+.object:hover {
+    transform: scale(1.2);
+    transition-duration: 250ms;
+}
+
+#title {
+    font-size: 45px;
+}
+#subtitle {
+    font-size: 32px;
 }
