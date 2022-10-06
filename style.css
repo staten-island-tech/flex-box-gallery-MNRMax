@@ -9,26 +9,29 @@ body {
 }
 .gallary {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 .image {
     width: 90%;
 }
 .object {
     text-align: center;
-    width: 27em;
-    margin: 1.5%;
+    width: 33em;
+    margin-bottom: 1.5%;
     background: #feddd8;
     border: 1px solid black;
     border-radius: 10px;
     box-shadow: -5px 5px 5px 5px #8b3631ac;
+    transition: ease 150ms;
 }
 .header {
     text-align: center;
     width: fit-content;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 40px;
     background: rgb(246, 115, 104);
     border-radius: 10px;
     border: 3px solid black;
@@ -47,7 +50,7 @@ body {
 
 .object:hover {
     transition-duration: 250ms;
-    transform: rotate(2deg) scale(1.2);
+    transform: rotate(1.5deg) scale(1.1);
 }
 
 #title {
@@ -55,4 +58,35 @@ body {
 }
 #subtitle {
     font-size: 32px;    
+}
+
+@media screen and (max-width: 1200px){
+    .gallary {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .object {
+        width: 85%;
+        margin: auto;
+        margin-bottom: 4%;
+    }
+    .object:hover {
+        transition-duration: 250ms;
+        transform: rotate(1.5deg) scale(1.1);
+    }
+}
+@media screen and (max-width: 600px){
+    .gallary {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .object {
+        width: 85%;
+        margin: auto;
+        margin-bottom: 4%;
+    }
+    .object:hover {
+        transition-duration: 250ms;
+        transform: rotate(1deg) scale(1.1);
+    }
 }
