@@ -42,6 +42,7 @@ body {
 }
 .object-title {
     padding: 2%;
+    font-weight: bolder;
 }
 
 .object:hover {
