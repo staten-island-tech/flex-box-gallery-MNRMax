@@ -22,7 +22,7 @@ body {
     background: #feddd8;
     border: 1px solid black;
     border-radius: 10px;
-    box-shadow: -5px 5px 5px 5px #8b3631;
+    box-shadow: -5px 5px 5px 5px #8b3631ac;
 }
 .header {
     text-align: center;
@@ -46,13 +46,13 @@ body {
 }
 
 .object:hover {
-    transform: scale(1.2);
     transition-duration: 250ms;
+    transform: rotate(2deg) scale(1.2);
 }
 
 #title {
     font-size: 45px;
 }
 #subtitle {
-    font-size: 32px;
+    font-size: 32px;    
 }
