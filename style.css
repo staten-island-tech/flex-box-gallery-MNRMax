@@ -19,7 +19,7 @@ body {
 .object {
     text-align: center;
     width: 33em;
-    margin-bottom: 1.5%;
+    margin-bottom: 2.7%;
     background: #feddd8;
     border: 1px solid black;
     border-radius: 10px;
@@ -49,8 +49,9 @@ body {
 }
 
 .object:hover {
+    box-shadow: 0 10px 25px #d7d9d0;
     transition-duration: 250ms;
-    transform: rotate(1.5deg) scale(1.1);
+    transform: rotate(1.5deg) scale(1.1);   
 }
 
 #title {
