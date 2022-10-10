@@ -51,7 +51,35 @@ body {
 .object:hover {
     box-shadow: 0 10px 25px #d7d9d0;
     transition-duration: 250ms;
-    transform: rotate(1.5deg) scale(1.1);   
+    transform: rotate(1.5deg) scale(1.1); 
+}
+
+#jump-object:hover .image {
+    content: url('/gifs/jump.gif');
+}
+#shift-object:hover .image {
+    content: url('/gifs/shift.gif');
+}
+#breezily-object:hover .image {
+    content: url('/gifs/breezily.gif');
+}
+#telly-object:hover .image {
+    content: url('/gifs/telly.gif');
+}
+#god-object:hover .image {
+    content: url('/gifs/godbridge.gif');
+}
+#andromeda-object:hover .image {
+    content: url('/gifs/andromeda.gif');
+}
+#derp-object:hover .image {
+    content: url('/gifs/derp.gif');
+}
+#moonwalk-object:hover .image {
+    content: url('/gifs/moonwalk.gif');
+}
+#ninja-object:hover .image {
+    content: url('/gifs/ninja.gif');
 }
 
 #title {
